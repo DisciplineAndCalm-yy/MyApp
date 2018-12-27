@@ -1,0 +1,1270 @@
+{
+    "msg": "666",
+    "username": {
+        "agent": 0,
+        "courseType": "",
+        "experience": 1,
+        "headimg": "/public/guanwang/head/D5DF43BF-E822-45e3-AD59-06FA3B6AB06E.png",
+        "lastlogintime": {
+            "date": 3,
+            "day": 1,
+            "hours": 10,
+            "minutes": 19,
+            "month": 8,
+            "nanos": 30000000,
+            "seconds": 44,
+            "time": 1535941184030,
+            "timezoneOffset": -480,
+            "year": 118
+        },
+        "level": 1,
+        "medal": 1,
+        "packegeid": 0,
+        "password": "",
+        "phonenum": 1,
+        "totalspend": 0,
+        "useremail": "1",
+        "userid": 10000,
+        "username": "代理商1",
+        "usertype": "Admin"
+    },
+    "error": 0,
+    "message": [{
+            "ID": 39,
+            "banner": "https://hterobot-image.oss-cn-beijing.aliyuncs.com/lessons-baner/Blockly_0.png",
+            "coursePrize": 0.03,
+            "courseTag": "基础课程,编程",
+            "courseType": "",
+            "createTime": {
+                "date": 24,
+                "day": 5,
+                "hours": 0,
+                "minutes": 0,
+                "month": 7,
+                "seconds": 0,
+                "time": 1535040000000,
+                "timezoneOffset": -480,
+                "year": 118
+            },
+            "difficulty": 1,
+            "environment": "Windows",
+            "info": "  ☆☆☆  本节课主要讲解的D-Blockly编程软件的安装步骤及环境配置。  ☆☆☆  D-Blockly是一款采用图形化编程的编程软件，不同于传统的编程方式，它把编程元素变为了一个个可拖拽的积木模块，采用一种拼图的方式进行编程，可直观形象的展示代码背后的逻辑关系，即使初学者也可迅速上手。  ☆☆☆  视频播放页面的下方是D-Blockly编程软件的安装包和相应驱动的下载链接，请将其下载完成后再观看本视频。",
+            "introduction": "d-block软件安装视频",
+            "level": "level 1",
+            "name": "1.软件安装及环境配置",
+            "paixu": 1,
+            "updateTime": {
+                "date": 24,
+                "day": 5,
+                "hours": 0,
+                "minutes": 0,
+                "month": 7,
+                "seconds": 0,
+                "time": 1535040000000,
+                "timezoneOffset": -480,
+                "year": 118
+            }
+        },
+        {
+            "ID": 41,
+            "banner": "https://hterobot-image.oss-cn-beijing.aliyuncs.com/lessons-baner/hand.png",
+            "coursePrize": 0.01,
+            "courseTag": "基础课程,编程",
+            "courseType": "",
+            "createTime": {
+                "date": 24,
+                "day": 5,
+                "hours": 0,
+                "minutes": 0,
+                "month": 7,
+                "seconds": 0,
+                "time": 1535040000000,
+                "timezoneOffset": -480,
+                "year": 118
+            },
+            "difficulty": 5,
+            "environment": "1234",
+            "info": "主要介绍六自由度灵巧手结构原理和各部分安装，了解连杆的使用等",
+            "introduction": "主要介绍六自由度灵巧手结构原理和各部分安装，了解连杆的使用等",
+            "level": "level 6",
+            "name": "14.智能灵巧手的安装",
+            "paixu": 14,
+            "updateTime": {
+                "date": 24,
+                "day": 5,
+                "hours": 0,
+                "minutes": 0,
+                "month": 7,
+                "seconds": 0,
+                "time": 1535040000000,
+                "timezoneOffset": -480,
+                "year": 118
+            }
+        },
+        {
+            "ID": 42,
+            "banner": "https://hterobot-image.oss-cn-beijing.aliyuncs.com/lessons-baner/Blockly_1.png",
+            "coursePrize": 0.01,
+            "courseTag": "LED,LED模块",
+            "courseType": "Blockly",
+            "createTime": null,
+            "difficulty": 1,
+            "environment": "",
+            "info": "认识什么是可编程机器人；了解LED灯；通过使LED灯亮起来的简单案例初步了解一下D-Blockly编程软件和逗包积木零件的基本使用技巧。",
+            "introduction": "",
+            "level": "level 1",
+            "name": "2.初识可编程机器人",
+            "paixu": 2,
+            "updateTime": null
+        },
+        {
+            "ID": 43,
+            "banner": "https://hterobot-image.oss-cn-beijing.aliyuncs.com/lessons-baner/Blockly_2.png",
+            "coursePrize": 0.01,
+            "courseTag": "LED,延时模块,顺序结构",
+            "courseType": "Blockly",
+            "createTime": null,
+            "difficulty": 1,
+            "environment": "",
+            "info": "学习如何使用延时模块；初步了解流程图及其中的基本元素；认识顺序结构的特点；通过实现LED时亮时灭的状态表现出星星眨眼的样子。",
+            "introduction": "",
+            "level": "level 1",
+            "name": "3.会眨眼的星星",
+            "paixu": 3,
+            "updateTime": null
+        },
+        {
+            "ID": 44,
+            "banner": "https://hterobot-image.oss-cn-beijing.aliyuncs.com/lessons-baner/Blockly_3.png",
+            "coursePrize": 0.01,
+            "courseTag": "触碰开关,条件控制模块,条件选择结构,SOS",
+            "courseType": "Blockly",
+            "createTime": null,
+            "difficulty": 2,
+            "environment": "",
+            "info": "了解国际通用的求救信号——SOS；认识条件选择结构的特点；以触碰开关按下与否作为条件，控制LED灯的亮灭，最终制作一个灯光信号发射器，正确发出SOS信号。",
+            "introduction": "",
+            "level": "level 4",
+            "name": "5.灯光信号SOS",
+            "paixu": 5,
+            "updateTime": null
+        },
+        {
+            "ID": 45,
+            "banner": "https://hterobot-image.oss-cn-beijing.aliyuncs.com/lessons-baner/Blockly_4.png",
+            "coursePrize": 0.01,
+            "courseTag": "电机,电机模块,尺蠖",
+            "courseType": "Blockly",
+            "createTime": null,
+            "difficulty": 2,
+            "environment": "",
+            "info": "学习并应用电机，用‘铰链’零件连接‘尺蠖’头尾部分，运用恰当的程序，通过‘尺蠖’前后部分两个电机不同状态的运动，模拟尺蠖一屈一伸的行动状态。",
+            "introduction": "",
+            "level": "level 2",
+            "name": "4.尺蠖",
+            "paixu": 4,
+            "updateTime": null
+        },
+        {
+            "ID": 46,
+            "banner": "https://hterobot-image.oss-cn-beijing.aliyuncs.com/lessons-baner/Blockly_5.png",
+            "coursePrize": 0.01,
+            "courseTag": "光电开关,串口查看器,条件控制模块",
+            "courseType": "Blockly",
+            "createTime": null,
+            "difficulty": 3,
+            "environment": "",
+            "info": "了解并学习串口查看器的基本功能和使用方法，利用光电开关可以探测有无接近的物体的特点实现小车避开障碍和检测边缘的功能。",
+            "introduction": "",
+            "level": "level 4",
+            "name": "7.悬崖勒马",
+            "paixu": 7,
+            "updateTime": null
+        },
+        {
+            "ID": 47,
+            "banner": "https://hterobot-image.oss-cn-beijing.aliyuncs.com/lessons-baner/Blockly_6.png",
+            "coursePrize": 0.01,
+            "courseTag": "光电开关,巡线",
+            "courseType": "Blockly",
+            "createTime": null,
+            "difficulty": 3,
+            "environment": "",
+            "info": "了解小车差速转向的三种方式，通过实验观察不同转向方式的转向效果；了解巡线机器人，探索利用一个光电开关实现小车巡线的方法。",
+            "introduction": "",
+            "level": "level 4",
+            "name": "8.边缘巡线",
+            "paixu": 8,
+            "updateTime": null
+        },
+        {
+            "ID": 48,
+            "banner": "https://hterobot-image.oss-cn-beijing.aliyuncs.com/lessons-baner/Blockly_7.png",
+            "coursePrize": 0.01,
+            "courseTag": "光电开关,逻辑模块,巡线",
+            "courseType": "Blockly",
+            "createTime": null,
+            "difficulty": 4,
+            "environment": "",
+            "info": "学习并应用逻辑模块中的‘且‘、’非’；了解需要同时判断多个条件时的编程思路及方法；探索利用两个光电开关实现小车巡线的方法。",
+            "introduction": "",
+            "level": "level 4",
+            "name": "9.夹线巡线",
+            "paixu": 9,
+            "updateTime": null
+        },
+        {
+            "ID": 49,
+            "banner": "https://hterobot-image.oss-cn-beijing.aliyuncs.com/lessons-baner/Blockly_8.png",
+            "coursePrize": 0.01,
+            "courseTag": "螺旋桨,变量模块,switch模块,触碰开关",
+            "courseType": "Blockly",
+            "createTime": null,
+            "difficulty": 4,
+            "environment": "",
+            "info": "学习并应用变量模块和switch模块；了解变量模块的使用场景，通过按动触碰开关控制螺旋桨的转速，从而实现带有不同档位转速的风扇。",
+            "introduction": "",
+            "level": "level 6",
+            "name": "10.遥控风扇",
+            "paixu": 10,
+            "updateTime": null
+        },
+        {
+            "ID": 50,
+            "banner": "https://hterobot-image.oss-cn-beijing.aliyuncs.com/lessons-baner/Blockly_9.png",
+            "coursePrize": 0.01,
+            "courseTag": "舵机,for循环模块,变量模块,触碰开关",
+            "courseType": "Blockly",
+            "createTime": null,
+            "difficulty": 4,
+            "environment": "",
+            "info": "了解舵机是什么；学习for循环模块的作用和使用方法，通过for循环实现转速可控的舵机；通过触碰开关控制舵机的转动实现大门的打开与关闭。",
+            "introduction": "",
+            "level": "level 6",
+            "name": "11.开门大吉",
+            "paixu": 11,
+            "updateTime": null
+        },
+        {
+            "ID": 51,
+            "banner": "https://hterobot-image.oss-cn-beijing.aliyuncs.com/lessons-baner/Blockly_10.png",
+            "coursePrize": 0.01,
+            "courseTag": "震动开关,蜂鸣器,条件控制模块",
+            "courseType": "Blockly",
+            "createTime": null,
+            "difficulty": 3,
+            "environment": "",
+            "info": "认识了解震动开关和蜂鸣器的功能及特点；通过震动开关检测到震动，控制蜂鸣器是否发出声音。最终制作一个通过敲击作为开关的门铃。",
+            "introduction": "",
+            "level": "level 4",
+            "name": "6.奇怪的门铃",
+            "paixu": 6,
+            "updateTime": null
+        },
+        {
+            "ID": 52,
+            "banner": "https://hterobot-image.oss-cn-beijing.aliyuncs.com/lessons-baner/Blockly_11.png",
+            "coursePrize": 0.01,
+            "courseTag": "人体红外传感器,红外设备原理,舵机",
+            "courseType": "Blockly",
+            "createTime": null,
+            "difficulty": 3,
+            "environment": "",
+            "info": "了解红外设备的检测原理；运用两个舵机制作一个双开门，通过编程调试实现相反方向的两个舵机门的同步开合，最终利用人体红外传感器可以检测人体的功能，实现双开门的自动开合。",
+            "introduction": "",
+            "level": "level 6",
+            "name": "12.人体红外自动门",
+            "paixu": 12,
+            "updateTime": null
+        },
+        {
+            "ID": 53,
+            "banner": "https://hterobot-image.oss-cn-beijing.aliyuncs.com/lessons-baner/Blockly_12.png",
+            "coursePrize": 0.01,
+            "courseTag": "光敏传感器,逻辑模块,变量",
+            "courseType": "Blockly",
+            "createTime": null,
+            "difficulty": 4,
+            "environment": "",
+            "info": "用触碰开关和光敏传感器同时控制LED灯的亮灭：当触碰开关按下时，光敏控制LED灯的亮灭；当触碰被再次按下时，光敏不再控制LED灯，LED灯状态为灭。",
+            "introduction": "",
+            "level": "level 6",
+            "name": "13.双控灯",
+            "paixu": 12,
+            "updateTime": null
+        }
+    ],
+    "ktUser": [{
+            "ID": 52,
+            "banner": "https://hterobot-image.oss-cn-beijing.aliyuncs.com/lessons-baner/Blockly_11.png",
+            "coursePrize": 0,
+            "courseUpdateTime": null,
+            "course_ID": 52,
+            "createTime": null,
+            "difficulty": 3,
+            "environment": "",
+            "info": "了解红外设备的检测原理；运用两个舵机制作一个双开门，通过编程调试实现相反方向的两个舵机门的同步开合，最终利用人体红外传感器可以检测人体的功能，实现双开门的自动开合。",
+            "introduction": "",
+            "lessonNum": 1,
+            "name": "人体红外自动门",
+            "otherInfo": "",
+            "permission": 999,
+            "updateTime": null,
+            "user_ID": 10006
+        },
+        {
+            "ID": 51,
+            "banner": "https://hterobot-image.oss-cn-beijing.aliyuncs.com/lessons-baner/Blockly_10.png",
+            "coursePrize": 0,
+            "courseUpdateTime": null,
+            "course_ID": 51,
+            "createTime": null,
+            "difficulty": 3,
+            "environment": "",
+            "info": "认识了解震动开关和蜂鸣器的功能及特点；通过震动开关检测到震动，控制蜂鸣器是否发出声音。最终制作一个通过敲击作为开关的门铃。",
+            "introduction": "",
+            "lessonNum": 1,
+            "name": "奇怪的门铃",
+            "otherInfo": "",
+            "permission": 999,
+            "updateTime": null,
+            "user_ID": 10006
+        },
+        {
+            "ID": 50,
+            "banner": "https://hterobot-image.oss-cn-beijing.aliyuncs.com/lessons-baner/Blockly_9.png",
+            "coursePrize": 0,
+            "courseUpdateTime": null,
+            "course_ID": 50,
+            "createTime": null,
+            "difficulty": 4,
+            "environment": "",
+            "info": "了解舵机是什么；学习for循环模块的作用和使用方法，通过for循环实现转速可控的舵机；通过触碰开关控制舵机的转动实现大门的打开与关闭。",
+            "introduction": "",
+            "lessonNum": 1,
+            "name": "开门大吉",
+            "otherInfo": "",
+            "permission": 999,
+            "updateTime": null,
+            "user_ID": 10006
+        },
+        {
+            "ID": 49,
+            "banner": "https://hterobot-image.oss-cn-beijing.aliyuncs.com/lessons-baner/Blockly_8.png",
+            "coursePrize": 0,
+            "courseUpdateTime": null,
+            "course_ID": 49,
+            "createTime": null,
+            "difficulty": 4,
+            "environment": "",
+            "info": "学习并应用变量模块和switch模块；了解变量模块的使用场景，通过按动触碰开关控制螺旋桨的转速，从而实现带有不同档位转速的风扇。",
+            "introduction": "",
+            "lessonNum": 1,
+            "name": "遥控风扇",
+            "otherInfo": "",
+            "permission": 999,
+            "updateTime": null,
+            "user_ID": 10006
+        }
+    ],
+    "sections": {
+        "Course": {
+            "ID": 41,
+            "banner": "https://hterobot-image.oss-cn-beijing.aliyuncs.com/lessons-baner/2018824-hand.png",
+            "coursePrize": 198,
+            "courseType": "机械手",
+            "courseTag": "光敏传感器,逻辑模块,变量",
+            "createTime": {
+                "date": 24,
+                "day": 5,
+                "hours": 0,
+                "minutes": 0,
+                "month": 7,
+                "seconds": 0,
+                "time": 1535040000000,
+                "timezoneOffset": -480,
+                "year": 118
+            },
+            "difficulty": 1,
+            "environment": "1234",
+            "info": "主要介绍六自由度灵巧手结构原理和各部分安装，了解连杆的使用等",
+            "introduction": "主要介绍六自由度灵巧手结构原理和各部分安装，了解连杆的使用等",
+            "name": "智能灵巧手的安装",
+            "updateTime": {
+                "date": 24,
+                "day": 5,
+                "hours": 0,
+                "minutes": 0,
+                "month": 7,
+                "seconds": 0,
+                "time": 1535040000000,
+                "timezoneOffset": -480,
+                "year": 118
+            }
+        },
+        "userCourse": ""
+    },
+    "userCourse": {
+        "ID": "02",
+        "name": "DOUBAO基础课堂",
+        "teacher": "郗大健",
+        "teIntroduction": "算法大牛 ACM亚洲区奖牌获得者",
+        "img": "a2.jpg",
+        "updateTime": "2018-01-02",
+        "difficulty": 1,
+        "lessonNum": 7,
+        "fenzu": 0,
+        "info": "当一个组件需要获取多个状态时候，将这些状态都声明为计算属性会有些重复和冗余。为了解决这个问题，我们可以使用 mapState 辅助函数帮助我们生成计算属性，让你少按几次键：// 在单独构建的版本中辅助函数为 Vuex.mapState",
+        "labels": [1, 2, 0, 3],
+        "isgoumai": false,
+        "price": 123456,
+        "isCollect": false,
+        "introduction": "bobo老师特为机器学习初学者量身打造，使用最新的python3语言和最流行的scikit-learn框架，算法与编程两翼齐飞，由浅入深，一步步的进入机器学习的世界。学到的不只是一门课程，更是不断思考的能力。",
+        "headPortrait": "t01c44703a9e96eac6a_看图王.jpg",
+        "parameters": {
+            "传感器": ["灰度传感器5个", "led传感器5个", "光敏传感器3个"],
+            "控制器": ["Arduino控制器1个"],
+            "其他": ["线材", "积木块", "轮子", "移动电源"]
+        },
+        "lesson": [{
+                "ID": "02",
+                "name": "DOUBAO基础课堂",
+                "teacher": "郗大健",
+                "img": "a2.jpg",
+                "updateTime": "2018-01-02",
+                "section": [{
+                        "ID": "02",
+                        "name": "DOUBAO基础课堂",
+                        "teacher": "郗大健",
+                        "img": "a2.jpg",
+                        "updateTime": "2018-01-02"
+                    },
+                    {
+                        "ID": "02",
+                        "name": "DOUBAO基础课堂",
+                        "teacher": "郗大健",
+                        "img": "a2.jpg",
+                        "updateTime": "2018-01-02"
+                    },
+                    {
+                        "ID": "02",
+                        "name": "DOUBAO基础课堂",
+                        "teacher": "郗大健",
+                        "img": "a2.jpg",
+                        "updateTime": "2018-01-02"
+                    },
+                    {
+                        "ID": "02",
+                        "name": "DOUBAO基础课堂",
+                        "teacher": "郗大健",
+                        "img": "a2.jpg",
+                        "updateTime": "2018-01-02"
+                    },
+                    {
+                        "ID": "02",
+                        "name": "DOUBAO基础课堂",
+                        "teacher": "郗大健",
+                        "img": "a2.jpg",
+                        "updateTime": "2018-01-02"
+                    },
+                    {
+                        "ID": "02",
+                        "name": "DOUBAO基础课堂",
+                        "teacher": "郗大健",
+                        "img": "a2.jpg",
+                        "updateTime": "2018-01-02"
+                    }
+                ]
+            },
+            {
+                "ID": "02",
+                "name": "DOUBAO基础课堂",
+                "teacher": "郗大健",
+                "img": "a2.jpg",
+                "updateTime": "2018-01-02",
+                "section": [{
+                        "ID": "02",
+                        "name": "DOUBAO基础课堂",
+                        "teacher": "郗大健",
+                        "img": "a2.jpg",
+                        "updateTime": "2018-01-02"
+                    },
+                    {
+                        "ID": "02",
+                        "name": "DOUBAO基础课堂",
+                        "teacher": "郗大健",
+                        "img": "a2.jpg",
+                        "updateTime": "2018-01-02"
+                    },
+                    {
+                        "ID": "02",
+                        "name": "DOUBAO基础课堂",
+                        "teacher": "郗大健",
+                        "img": "a2.jpg",
+                        "updateTime": "2018-01-02"
+                    },
+                    {
+                        "ID": "02",
+                        "name": "DOUBAO基础课堂",
+                        "teacher": "郗大健",
+                        "img": "a2.jpg",
+                        "updateTime": "2018-01-02"
+                    },
+                    {
+                        "ID": "02",
+                        "name": "DOUBAO基础课堂",
+                        "teacher": "郗大健",
+                        "img": "a2.jpg",
+                        "updateTime": "2018-01-02"
+                    },
+                    {
+                        "ID": "02",
+                        "name": "DOUBAO基础课堂",
+                        "teacher": "郗大健",
+                        "img": "a2.jpg",
+                        "updateTime": "2018-01-02"
+                    }
+                ]
+            }
+        ]
+    },
+    "ktTuijian": [{
+            "ID": "02",
+            "name": "DOUBAO基础课堂",
+            "teacher": "郗大健",
+            "banner": "a2.jpg",
+            "lessonNum": 7,
+            "updateTime": "2018-01-02",
+            "info": "当一个组件需要获取多个状态时候，将这些状态都声明为计算属性会有些重复和冗余。为了解决这个问题，我们可以使用 mapState 辅助函数帮助我们生成计算属性，让你少按几次键：// 在单独构建的版本中辅助函数为 Vuex.mapState",
+            "difficulty": 1
+        },
+        {
+            "ID": "03",
+            "name": "DOUBAO基础课堂",
+            "teacher": "郗大健",
+            "banner": "a3.jpg",
+            "lessonNum": 7,
+            "info": "当一个组件需要获取多个状态时候，将这些状态都声明为计算属性会有些重复和冗余。为了解决这个问题，我们可以使用 mapState 辅助函数帮助我们生成计算属性，让你少按几次键：// 在单独构建的版本中辅助函数为 Vuex.mapState",
+            "updateTime": "2018-01-02",
+            "difficulty": 1
+        }
+    ],
+    "free": {
+        "ID": "02",
+        "name": "DOUBAO基础课堂",
+        "teacher": "郗大健",
+        "img": "a2.jpg",
+        "lessonNum": 7,
+        "updateTime": "2018-01-02",
+        "difficulty": 1,
+        "isCollect": false,
+        "price": "123456",
+        "info": "当一个组件需要获取多个状态时候，将这些状态都声明为计算属性会有些重复和冗余。为了解决这个问题，我们可以使用 mapState 辅助函数帮助我们生成计算属性，让你少按几次键：// 在单独构建的版本中辅助函数为 Vuex.mapState"
+    },
+    "lession": {
+        "ID": 1,
+        "course_ID": 10,
+        "num": 1,
+        "videoId": "87c80bafed4a43cda1e9e744321e7f9a"
+    },
+    "couse1": [{
+        "ID": 1,
+        "course_ID": 10,
+        "num": 1,
+        "videoId": "87c80bafed4a43cda1e9e744321e7f9a"
+    }],
+    "videoList": {
+        "playAuth": "eyJTZWN1cml0eVRva2VuIjoiQ0FJUzN3SjFxNkZ0NUIyeWZTaklyNHY1Zk03RnBlMU84THFPWkhQZXFtazNQdnhwMTZIS2h6ejJJSGhKZVhOdkJPMGV0ZjQrbVdCWTdQY1lsck1xRU1RWUdSU1ZONW9wdHNVTnExUDRKcExGc3QySjZyOEpqc1V2ak9FbXYxcXBzdlhKYXNEVkVma3VFNVhFTWlJNS8wMGU2TC8rY2lyWVhEN0JHSmFWaUpsaFE4MEtWdzJqRjFSdkQ4dFhJUTBRazYxOUszemRaOW1nTGlidWkzdnhDa1J2MkhCaWptOHR4cW1qL015UTV4MzFpMXYweStCM3dZSHRPY3FjYThCOU1ZMVdUc3Uxdm9oemFyR1Q2Q3BaK2psTStxQVU2cWxZNG1YcnM5cUhFa0ZOd0JpWFNaMjJsT2RpTndoa2ZLTTNOcmRacGZ6bjc1MUN0L2ZVaXA3OHhtUW1YNGdYY1Z5R0dOLzZuNU9aUXJ6emI0WmhKZWVsQVJtWGpJRFRiS3VTbWhnL2ZIY1dPRGxOZjljY01YSnFBWFF1TUdxQ2QvTDlwdzJYT2x6NUd2WFZnUHRuaTRBSjVsSHA3TWVNR1YrRGVMeVF5aDBFSWFVN2EwNDQvNWVUWWFwazFNVWFnQUZhZzU4RDh2WHNUWnE3VlpTakdiSTlscUpEY01jb3FJNllwVWJta0xQVE5VYW9DOHJ4dDF4d2M0VytEMk1aM0VMMkxHSTQ5WG9GRHFXUGdrNmQzL2VyNlI0QjZiWlA0NHdDM2UzRHFsSDA5Q0NJdjMxV0pMUk1yU2hQNERMQ242QjZlTks2c1JLeXFXOHBsNXJJNnpQZmpYcy90aGhVajlnUWFsWjAzV29BblE9PSIsIkF1dGhJbmZvIjoie1wiQ2FsbGVyXCI6XCJ6QTdWbzZBaGZ6aUM3UmZGaG5yWHREaTVDZzdvNkZ5U3ZZVCsyOFhEaFR3PVxcclxcblwiLFwiRXhwaXJlVGltZVwiOlwiMjAxOC0wOS0xMlQwMjozOToxNVpcIixcIk1lZGlhSWRcIjpcIjNkZTljZWExMDEzNDQyN2M4M2JiNjkwMzE3YmM3YjBiXCIsXCJTaWduYXR1cmVcIjpcIm9ZV2FobC96TU11RFk2elJON1BiSTg5dVhoRT1cIn0iLCJWaWRlb01ldGEiOnsiU3RhdHVzIjoiTm9ybWFsIiwiVmlkZW9JZCI6IjNkZTljZWExMDEzNDQyN2M4M2JiNjkwMzE3YmM3YjBiIiwiVGl0bGUiOiLmnLrmorDmiYvlronoo4U3IiwiQ292ZXJVUkwiOiJodHRwOi8vb3V0aW4tNzhlYjk3OTVhNWIxMTFlODllYWIwMDE2M2UxYTYyNWUub3NzLWNuLXNoYW5naGFpLmFsaXl1bmNzLmNvbS8zZGU5Y2VhMTAxMzQ0MjdjODNiYjY5MDMxN2JjN2IwYi9jb3ZlcnMvZDU2NmRmNWFhZjA2NDUzYzhjNGY3NDllYmMzOTc2ZGYtMDAwMDQuanBnP0V4cGlyZXM9MTUzNjcyMTc1NSZPU1NBY2Nlc3NLZXlJZD1MVEFJbkZ1bWdZRXROTXZDJlNpZ25hdHVyZT1ZVlNIY1g0QiUyRjAwRlpqZCUyRjVJMG5sYjFuRlVnJTNEIiwiRHVyYXRpb24iOjIwNi4yMDZ9LCJBY2Nlc3NLZXlJZCI6IlNUUy5OSEw3dHFIMm9HeGVmVW9OaWIyc0U4ZGFlIiwiQWNjZXNzS2V5U2VjcmV0IjoiM0VvQkRUV0g5VW9Ud3FScmI4NzdpU3RrQURjNUFSYlZuQjYyRkdndVpNRG4iLCJSZWdpb24iOiJjbi1zaGFuZ2hhaSIsIkN1c3RvbWVySWQiOjEzMzU0MDkyOTEwOTIyODF9",
+        "requestId": "AED8FEA9-A071-4D08-B7DB-05410296257F",
+        "videoMeta": {
+            "coverURL": "https://outin-78eb9795a5b111e89eab00163e1a625e.oss-cn-shanghai.aliyuncs.com/3de9cea10134427c83bb690317bc7b0b/covers/d566df5aaf06453c8c4f749ebc3976df-00004.jpg?Expires=1536721755&OSSAccessKeyId=LTAInFumgYEtNMvC&Signature=YVSHcX4B%2F00FZjd%2F5I0nlb1nFUg%3D",
+            "duration": 206.206,
+            "status": "Normal",
+            "title": "机械手安装7",
+            "videoId": "3de9cea10134427c83bb690317bc7b0b"
+        }
+    },
+    "pay": "<form name=\"punchout_form\" method=\"post\" action=\"https://openapi.alipaydev.com/gateway.do?charset=utf-8&method=alipay.trade.page.pay&sign=GprN0puyJrWP3%2BK7IiamNhpACkpiwwTqHkoU1uQgp3hSZtQMQs931vxfK8h7%2BIb%2F%2BSiFMhA%2BIZtZBvSQd81vGEmWAI2ybNGMKBarb4El1%2BSLZsJf4QfFP3WeLy2Fb3jeB9EW%2B%2BQfmgdDBVSvirqIxJ3kOP%2FPeyxKZQuyVomuLx7PaAua4kr8iLuIHZyM8cvRlvVXQh%2FQIz%2B5tB6YqejB73ipDqxeFN2yMg%2BzvSXluU8p5bo0pE5o0E9Tu8vGQE9w%2FlPklTp%2BYGFIBnS4VEbCSA7yUhfq6YXQ3WEV1QTdlyAzVTI%2BekGIqaMAe%2FvQlY%2BKRmMjQ5ai%2Fpb%2Bj1pQGUcahQ%3D%3D&return_url=http%3A%2F%2F127.0.0.1%3A8080%2FBYSJ%2FCallBack.action&notify_url=http%3A%2F%2F127.0.0.1%3A8080%2FBYSJ%2FCallBack.action&version=1.0&app_id=2018082461125392&sign_type=RSA2&timestamp=2018-08-27+17%3A27%3A20&alipay_sdk=alipay-sdk-java-3.3.0&format=JSON\">\n<input type=\"hidden\" name=\"biz_content\" value=\"{    &quot;out_trade_no&quot;:&quot;1535362040935&quot;,    &quot;product_code&quot;:&quot;FAST_INSTANT_TRADE_PAY&quot;,    &quot;total_amount&quot;:0.01,    &quot;subject&quot;:&quot;WEB course&quot;,    &quot;qr_pay_mode&quot;:&quot;4&quot;,    &quot;qrcode_width&quot;:&quot;250&quot;,    &quot;timeout_express&quot;:&quot;15d&quot;,    &quot;passback_params&quot;:&quot;merchantBizType%3d3C%26merchantBizNo%3d2016010101111&quot;,  }\">\n<input type=\"submit\" value=\"立即支付\" style=\"display:none\" >\n<\/form>\n<script>document.forms[0].submit();<\/script>",
+    "learn": {
+        "error": 0
+    },
+    "addCollection": {
+        "msg": "添加成功",
+        "error": 0,
+        "data": true
+    },
+    "getusertype": {
+        "msg": "添加成功",
+        "error": 0,
+        "data": "Agent"
+    },
+    "getChildren": [{
+            "agent": 100000100,
+            "courseType": "",
+            "experience": 1,
+            "headimg": "",
+            "lastlogintime": null,
+            "level": 1,
+            "medal": 0,
+            "password": "rsr4icsaz0n526futs61",
+            "phonenum": 0,
+            "totalspend": 0,
+            "useremail": "",
+            "userid": 100000083,
+            "username": "新用户",
+            "usertype": "User"
+        },
+        {
+            "agent": 100000100,
+            "courseType": "",
+            "experience": 1,
+            "headimg": "",
+            "lastlogintime": null,
+            "level": 1,
+            "medal": 0,
+            "password": "k38c1wx6eggjvuhmar",
+            "phonenum": 0,
+            "totalspend": 0,
+            "useremail": "",
+            "userid": 100000084,
+            "username": "新用户",
+            "usertype": "User"
+        },
+        {
+            "agent": 100000100,
+            "courseType": "",
+            "experience": 1,
+            "headimg": "",
+            "lastlogintime": null,
+            "level": 1,
+            "medal": 0,
+            "password": "hgh62x1rrk76d",
+            "phonenum": 0,
+            "totalspend": 0,
+            "useremail": "",
+            "userid": 100000085,
+            "username": "新用户",
+            "usertype": "User"
+        },
+        {
+            "agent": 100000100,
+            "courseType": "",
+            "experience": 1,
+            "headimg": "",
+            "lastlogintime": null,
+            "level": 1,
+            "medal": 0,
+            "password": "bd6yvkbwgql2gz3iedoi",
+            "phonenum": 0,
+            "totalspend": 0,
+            "useremail": "",
+            "userid": 100000086,
+            "username": "新用户",
+            "usertype": "Tourist"
+        },
+        {
+            "agent": 100000100,
+            "courseType": "",
+            "experience": 1,
+            "headimg": "",
+            "lastlogintime": null,
+            "level": 1,
+            "medal": 0,
+            "password": "gyggy3m3gkn6okf72j66qxx7xxsrf",
+            "phonenum": 0,
+            "totalspend": 0,
+            "useremail": "",
+            "userid": 100000087,
+            "username": "新用户",
+            "usertype": "Tourist"
+        },
+        {
+            "agent": 100000100,
+            "courseType": "",
+            "experience": 1,
+            "headimg": "",
+            "lastlogintime": null,
+            "level": 1,
+            "medal": 0,
+            "password": "9drp4e74yffpt61",
+            "phonenum": 0,
+            "totalspend": 0,
+            "useremail": "",
+            "userid": 100000088,
+            "username": "新用户",
+            "usertype": "User"
+        },
+        {
+            "agent": 100000100,
+            "courseType": "",
+            "experience": 1,
+            "headimg": "",
+            "lastlogintime": null,
+            "level": 1,
+            "medal": 0,
+            "password": "jtycba10s35l7s1drt0qxwtxo",
+            "phonenum": 0,
+            "totalspend": 0,
+            "useremail": "",
+            "userid": 100000089,
+            "username": "新用户",
+            "usertype": "Tourist"
+        },
+        {
+            "agent": 100000100,
+            "courseType": "",
+            "experience": 1,
+            "headimg": "",
+            "lastlogintime": null,
+            "level": 1,
+            "medal": 0,
+            "password": "xp4t0otoia5iq2",
+            "phonenum": 0,
+            "totalspend": 0,
+            "useremail": "",
+            "userid": 100000090,
+            "username": "新用户",
+            "usertype": "Tourist"
+        },
+        {
+            "agent": 100000100,
+            "courseType": "",
+            "experience": 1,
+            "headimg": "",
+            "lastlogintime": null,
+            "level": 1,
+            "medal": 0,
+            "password": "l8q6g22almtnqpv",
+            "phonenum": 0,
+            "totalspend": 0,
+            "useremail": "",
+            "userid": 100000091,
+            "username": "新用户",
+            "usertype": "Tourist"
+        },
+        {
+            "agent": 100000100,
+            "courseType": "",
+            "experience": 1,
+            "headimg": "",
+            "lastlogintime": null,
+            "level": 1,
+            "medal": 0,
+            "password": "s8ntpy5t55bnpfnx6ucbbsxd",
+            "phonenum": 0,
+            "totalspend": 0,
+            "useremail": "",
+            "userid": 100000092,
+            "username": "新用户",
+            "usertype": "Tourist"
+        },
+        {
+            "agent": 100000100,
+            "courseType": "",
+            "experience": 1,
+            "headimg": "",
+            "lastlogintime": null,
+            "level": 1,
+            "medal": 0,
+            "password": "kqtvr566b5kswhxtpknnmg5kc",
+            "phonenum": 0,
+            "totalspend": 0,
+            "useremail": "",
+            "userid": 100000093,
+            "username": "新用户",
+            "usertype": "Tourist"
+        },
+        {
+            "agent": 100000100,
+            "courseType": "",
+            "experience": 1,
+            "headimg": "",
+            "lastlogintime": null,
+            "level": 1,
+            "medal": 0,
+            "password": "u5qu3oj4pdkl7q03ocbimhws0who",
+            "phonenum": 0,
+            "totalspend": 0,
+            "useremail": "",
+            "userid": 100000094,
+            "username": "新用户",
+            "usertype": "Tourist"
+        },
+        {
+            "agent": 100000100,
+            "courseType": "",
+            "experience": 1,
+            "headimg": "",
+            "lastlogintime": null,
+            "level": 1,
+            "medal": 0,
+            "password": "8pkmm3gm2kpswf3zkrcnj67y7paydf09",
+            "phonenum": 0,
+            "totalspend": 0,
+            "useremail": "",
+            "userid": 100000095,
+            "username": "新用户",
+            "usertype": "Tourist"
+        },
+        {
+            "agent": 100000100,
+            "courseType": "",
+            "experience": 1,
+            "headimg": "",
+            "lastlogintime": null,
+            "level": 1,
+            "medal": 0,
+            "password": "vchfjxyv4rauf4vebcc",
+            "phonenum": 0,
+            "totalspend": 0,
+            "useremail": "",
+            "userid": 100000096,
+            "username": "新用户",
+            "usertype": "Tourist"
+        },
+        {
+            "agent": 100000100,
+            "courseType": "",
+            "experience": 1,
+            "headimg": "",
+            "lastlogintime": null,
+            "level": 1,
+            "medal": 0,
+            "password": "xol4wokq4",
+            "phonenum": 0,
+            "totalspend": 0,
+            "useremail": "",
+            "userid": 100000097,
+            "username": "新用户",
+            "usertype": "Tourist"
+        },
+        {
+            "agent": 100000100,
+            "courseType": "",
+            "experience": 1,
+            "headimg": "",
+            "lastlogintime": null,
+            "level": 1,
+            "medal": 0,
+            "password": "xoj1kqpoqsrrfbbkjhyt",
+            "phonenum": 0,
+            "totalspend": 0,
+            "useremail": "",
+            "userid": 100000098,
+            "username": "新用户",
+            "usertype": "User"
+        },
+        {
+            "agent": 100000100,
+            "courseType": "",
+            "experience": 1,
+            "headimg": "",
+            "lastlogintime": null,
+            "level": 1,
+            "medal": 0,
+            "password": "7ongnghx9to2a78zl8gnndco0ps4xd6",
+            "phonenum": 0,
+            "totalspend": 0,
+            "useremail": "",
+            "userid": 100000099,
+            "username": "新用户",
+            "usertype": "Tourist"
+        }
+    ],
+    "getInvite": [{
+            "ID": 1,
+            "agent_ID": 100000100,
+            "count": 10,
+            "key_ID": 1,
+            "packegeInfo": "包含第一课",
+            "packegeName": "初级课程包",
+            "prize": 800
+        },
+        {
+            "ID": 2,
+            "agent_ID": 100000100,
+            "count": 0,
+            "key_ID": 2,
+            "packegeInfo": "包含第三课",
+            "packegeName": "高级课程包",
+            "prize": 700
+        }
+    ],
+    "getCourseFile": [{
+            "ID": 1,
+            "action_URL": "",
+            "arch": "32",
+            "course_ID": 39,
+            "file_URL": "https://doubaobit.oss-cn-beijing.aliyuncs.com/dblock/D-Blockly%E7%BC%96%E7%A8%8B%E8%BD%AF%E4%BB%B6%20Setup%200.1.4.exe",
+            "img_URL": "https://hterobot-kimage.oss-cn-qingdao.aliyuncs.com/coursefileimages/action1.png",
+            "system": "windows"
+        },
+        {
+            "ID": 2,
+            "action_URL": "",
+            "arch": "32",
+            "course_ID": 39,
+            "file_URL": "https://doubaobit.oss-cn-beijing.aliyuncs.com/drivers/wch_ch32.exe",
+            "img_URL": "https://hterobot-kimage.oss-cn-qingdao.aliyuncs.com/coursefileimages/action2.png",
+            "system": "windows"
+        },
+        {
+            "ID": 3,
+            "action_URL": "",
+            "arch": "64",
+            "course_ID": 39,
+            "file_URL": "https://doubaobit.oss-cn-beijing.aliyuncs.com/drivers/wch_ch64.exe",
+            "img_URL": "https://hterobot-kimage.oss-cn-qingdao.aliyuncs.com/coursefileimages/action3.png",
+            "system": "windows"
+        },
+        {
+            "ID": 4,
+            "action_URL": "",
+            "arch": "32",
+            "course_ID": 39,
+            "file_URL": "https://doubaobit.oss-cn-beijing.aliyuncs.com/dist/D-Blockly%E7%BC%96%E7%A8%8B%E8%BD%AF%E4%BB%B6-0.1.2.dmg",
+            "img_URL": "https://hterobot-kimage.oss-cn-qingdao.aliyuncs.com/coursefileimages/action4.png",
+            "system": "mac"
+        },
+        {
+            "ID": 5,
+            "action_URL": "",
+            "arch": "32",
+            "course_ID": 39,
+            "file_URL": "https://doubaobit.oss-cn-beijing.aliyuncs.com/drivers/CH34x_Install_V1.4.pkg",
+            "img_URL": "https://hterobot-kimage.oss-cn-qingdao.aliyuncs.com/coursefileimages/action5.png",
+            "system": "mac"
+        },
+        {
+            "ID": 6,
+            "action_URL": "",
+            "arch": "64",
+            "course_ID": 39,
+            "file_URL": "https://doubaobit.oss-cn-beijing.aliyuncs.com/dblock/D-Blockly%E7%BC%96%E7%A8%8B%E8%BD%AF%E4%BB%B6%20Setup%200.1.4.exe",
+            "img_URL": "https://hterobot-kimage.oss-cn-qingdao.aliyuncs.com/coursefileimages/action1.png",
+            "system": "windows"
+        }
+    ],
+    "uploadAccess": {
+        "accessKeyId": "STS.NJyky4Lze4NW7NydqSFMCTfPj",
+        "accessKeySecret": "52pU9URT37ry1wdvLQDb3fpLMqdGcv1Vn1YHXRcu1Nj5",
+        "expiration": "2018-09-29T08:18:59Z",
+        "securityToken": "CAIS+gF1q6Ft5B2yfSjIr4nMIMOAoaVEg4y8NWjIgHEGSsJvu6P7iDz2IHpMdXNoBukXtP83n2lX6fgalqZpTJtIfkHfdsp36LJe9A75x3sKcEbxv9I+k5SANTW5KXyShb3/AYjQSNfaZY3eCTTtnTNyxr3XbCirW0ffX7SClZ9gaKZ8PGD6F00kYu1bPQx/ssQXGGLMPPK2SH7Qj3HXEVBjt3gX6wo9y9zmmZbBtkKP1gyjkr5P/dSoGPX+MZkwZqUYesyuwel7epDG1CNt8BVQ/M909vceoWad5o7EUgMKu07fbLWKqscLNgZ8I7Q3ALIBpeDkhSzSYSd4LkOdGoABAtZxFAsQadiUoMJpzzeeRdM1nJSAlnhsYlIlkQpBsBXr9OzGOmjBndWRzscUr3yIedMyydPtkvaY14mw92He7S37y0GJsc3yjwHllO09wMpoS5J3w9ChL8nblCB6w4hhLBnUg3sClYufG3+8nOge5tss7f9kab4fFuNp1Ih8Qjs="
+    },
+    "WXpay": "weixin://wxpay/bizpayurl?pr=XTRkfZo",
+    "allUser": [{
+        "agent": 0,
+        "courseType": "",
+        "experience": 1,
+        "headimg": "",
+        "lastlogintime": {
+            "date": 3,
+            "day": 1,
+            "hours": 10,
+            "minutes": 19,
+            "month": 8,
+            "nanos": 30000000,
+            "seconds": 44,
+            "time": 1535941184030,
+            "timezoneOffset": -480,
+            "year": 118
+        },
+        "level": 1,
+        "medal": 1,
+        "packegeid": 0,
+        "password": "",
+        "phonenum": 1,
+        "totalspend": 0,
+        "useremail": "1",
+        "userid": 10000,
+        "username": "代理商1",
+        "usertype": "Agent"
+    }],
+    "packagekey": [{
+        "ID": 1,
+        "prize": 10,
+        "packageName": "大大礼包",
+        "packageInfo": "这是二大礼包"
+    }],
+    "getCourseAndLessionsByCourseID": {
+        "Course": {
+            "ID": 41,
+            "banner": "https://hterobot-image.oss-cn-beijing.aliyuncs.com/lessons-baner/hand.png",
+            "coursePrize": 0.01,
+            "courseTag": "基础课程,编程",
+            "courseType": "",
+            "createTime": {
+                "date": 24,
+                "day": 5,
+                "hours": 0,
+                "minutes": 0,
+                "month": 7,
+                "seconds": 0,
+                "time": 1535040000000,
+                "timezoneOffset": -480,
+                "year": 118
+            },
+            "difficulty": 5,
+            "environment": "1234",
+            "info": "主要介绍六自由度灵巧手结构原理和各部分安装，了解连杆的使用等",
+            "introduction": "主要介绍六自由度灵巧手结构原理和各部分安装，了解连杆的使用等",
+            "level": "level 6",
+            "name": "14.智能灵巧手的安装",
+            "paixu": 14,
+            "updateTime": {
+                "date": 24,
+                "day": 5,
+                "hours": 0,
+                "minutes": 0,
+                "month": 7,
+                "seconds": 0,
+                "time": 1535040000000,
+                "timezoneOffset": -480,
+                "year": 118
+            }
+        },
+        "Lession": [{
+                "ID": 4,
+                "course_ID": 41,
+                "num": 1,
+                "videoId": "3c332842921c40fa8b13d81d3530ddec"
+            },
+            {
+                "ID": 5,
+                "course_ID": 41,
+                "num": 2,
+                "videoId": "890486f57a6043bf9517fef01b122f0e"
+            },
+            {
+                "ID": 6,
+                "course_ID": 41,
+                "num": 3,
+                "videoId": "bd0cc05a315e4caf97eab9060467f8e2"
+            },
+            {
+                "ID": 7,
+                "course_ID": 41,
+                "num": 4,
+                "videoId": "dc89df611e594691bdb962d1afd711e3"
+            },
+            {
+                "ID": 8,
+                "course_ID": 41,
+                "num": 5,
+                "videoId": "8a35b0ed45d44003ac9d677d7a49fecc"
+            },
+            {
+                "ID": 9,
+                "course_ID": 41,
+                "num": 6,
+                "videoId": "b075c560b30a40dd9b1e75cd01612c87"
+            },
+            {
+                "ID": 10,
+                "course_ID": 41,
+                "num": 7,
+                "videoId": "3de9cea10134427c83bb690317bc7b0b"
+            },
+            {
+                "ID": 11,
+                "course_ID": 41,
+                "num": 8,
+                "videoId": "2f3bdc5563c84c258b031d7f41ac7a49"
+            },
+            {
+                "ID": 12,
+                "course_ID": 41,
+                "num": 9,
+                "videoId": "a8f99dd3b5f341afb373274705f05616"
+            }
+        ]
+    },
+    "getAllLessions": [{
+            "ID": 2,
+            "course_ID": 39,
+            "num": 1,
+            "videoId": "9c53450f52084e689c27437b70f3e38f"
+        },
+        {
+            "ID": 4,
+            "course_ID": 41,
+            "num": 1,
+            "videoId": "3c332842921c40fa8b13d81d3530ddec"
+        },
+        {
+            "ID": 5,
+            "course_ID": 41,
+            "num": 2,
+            "videoId": "890486f57a6043bf9517fef01b122f0e"
+        },
+        {
+            "ID": 6,
+            "course_ID": 41,
+            "num": 3,
+            "videoId": "bd0cc05a315e4caf97eab9060467f8e2"
+        },
+        {
+            "ID": 7,
+            "course_ID": 41,
+            "num": 4,
+            "videoId": "dc89df611e594691bdb962d1afd711e3"
+        },
+        {
+            "ID": 8,
+            "course_ID": 41,
+            "num": 5,
+            "videoId": "8a35b0ed45d44003ac9d677d7a49fecc"
+        },
+        {
+            "ID": 9,
+            "course_ID": 41,
+            "num": 6,
+            "videoId": "b075c560b30a40dd9b1e75cd01612c87"
+        },
+        {
+            "ID": 10,
+            "course_ID": 41,
+            "num": 7,
+            "videoId": "3de9cea10134427c83bb690317bc7b0b"
+        },
+        {
+            "ID": 11,
+            "course_ID": 41,
+            "num": 8,
+            "videoId": "2f3bdc5563c84c258b031d7f41ac7a49"
+        },
+        {
+            "ID": 12,
+            "course_ID": 41,
+            "num": 9,
+            "videoId": "a8f99dd3b5f341afb373274705f05616"
+        },
+        {
+            "ID": 13,
+            "course_ID": 42,
+            "num": 1,
+            "videoId": "9018fe1bfb9147b39e4e3eecf007b1fc"
+        },
+        {
+            "ID": 14,
+            "course_ID": 43,
+            "num": 1,
+            "videoId": "4c172723599f4eda8c413f3672a2ca4e"
+        },
+        {
+            "ID": 15,
+            "course_ID": 44,
+            "num": 1,
+            "videoId": "2f96b9a94bf54f398a983530e88d061b"
+        },
+        {
+            "ID": 16,
+            "course_ID": 45,
+            "num": 1,
+            "videoId": "7038f2d4efaf4af2b06730804d5accee"
+        },
+        {
+            "ID": 17,
+            "course_ID": 46,
+            "num": 1,
+            "videoId": "64bc7275e8504d7f9101af1bb6309c3f"
+        },
+        {
+            "ID": 18,
+            "course_ID": 47,
+            "num": 1,
+            "videoId": "996daa65afa94813b6df6fce4201aa74"
+        },
+        {
+            "ID": 19,
+            "course_ID": 48,
+            "num": 1,
+            "videoId": "a8b5eae155814cafb856c22d340fcdfa"
+        },
+        {
+            "ID": 20,
+            "course_ID": 49,
+            "num": 1,
+            "videoId": "6e58695a8b444e24844b17ffd45e8f53"
+        },
+        {
+            "ID": 21,
+            "course_ID": 50,
+            "num": 1,
+            "videoId": "5dcaca19a27f44aea38018a475c8b8f4"
+        },
+        {
+            "ID": 22,
+            "course_ID": 51,
+            "num": 1,
+            "videoId": "488da68458744bdb9b900b2c80d5fa91"
+        },
+        {
+            "ID": 23,
+            "course_ID": 52,
+            "num": 1,
+            "videoId": "d622f2ef81464598bfd69c66a2111c48"
+        },
+        {
+            "ID": 24,
+            "course_ID": 53,
+            "num": 1,
+            "videoId": "4271485160524b7abb53e2f37035b8a2"
+        }
+    ],
+    "getAllPackege": [{
+            "ID": 3,
+            "count": 0,
+            "packegeInfo": "所有课程",
+            "packegeName": "课程包",
+            "prize": 0.1,
+            "token": ""
+        },
+        {
+            "ID": 4,
+            "count": 0,
+            "packegeInfo": "一个课程包",
+            "packegeName": "一个课程包",
+            "prize": 0.1,
+            "token": ""
+        }
+    ],
+    "question": [{
+        "ID": 1,
+        "mark": 1,
+        "video_ID": 4,
+        "picture": "https://hterobot-image.oss-cn-beijing.aliyuncs.com/videoImg/%E9%9C%87%E5%8A%A8%E5%BC%80%E5%85%B31.png",
+        "questionData": [{
+            "id": "bbaaccdd123",
+            "name": "s4a5d",
+            "style": {
+                "top": "52",
+                "left": "34"
+            },
+            "value": "666fff"
+        }],
+        "questionType": "singleChoice",
+        "time": 10,
+        "questionStartTime": 5,
+        "answer" : "666fff"
+    },
+    {
+        "ID": 2,
+        "mark": 1,
+        "video_ID": 4,
+        "picture": "https://hterobot-image.oss-cn-beijing.aliyuncs.com/videoImg/%E9%9C%87%E5%8A%A8%E5%BC%80%E5%85%B31.png",
+        "questionData": [{
+            "id": "bbaaccdd123",
+            "name": "s4a5d",
+            "style": {
+                "top": "52",
+                "left": "34"
+            },
+            "value": "666fff"
+        }],
+        "questionType": "singleChoice",
+        "time": 15,
+        "questionStartTime": 11,
+        "answer" : "666fff"
+    }]
+}

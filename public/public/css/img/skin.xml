@@ -1,0 +1,4 @@
+<TextureAtlas imagePath="skin.png">
+<SubTexture name="bigPlayDown" x="2" y="94" width="90" height="90"/>
+<SubTexture name="bigPlayOver" x="94" y="2" width="90" height="90"/>
+<SubTexture name="bigPlayUp" x="2" y="2" width="90" height="90"/>

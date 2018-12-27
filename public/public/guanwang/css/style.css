@@ -1,0 +1,33 @@
+#resetpass .el-dialog__header {
+   
+    background-image: url(/public/guanwang/home/icon_logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* height: 65px; */
+    height:100px;
+}
+
+#resetpass input {
+    border-radius: 0px;
+    font-size: 12px;
+    color: rgba(70, 68, 68, 0.6);
+}
+
+#resetpass button {
+    border-radius: 0px;
+}
+
+#resetpass .row {
+    margin-right: 0;
+}
+
+#wxcode {
+    display: block;
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+}
+
+#secureIndex .el-dialog__body {
+    background-image: url("/public/guanwang/images/background.png");
+}

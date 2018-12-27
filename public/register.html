@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="/public/favicon.ico">
+    <script src="/public/js/href.js"></script>
+    <link href="https://cdn.bootcss.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//at.alicdn.com/t/font_785409_cwtukddfkfh.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/vue/2.5.16/vue.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+    <title>哈工科教云课堂注册</title>
+</head>
+<style>
+    html,
+    body,
+    #app,
+    .el-container {
+        height: 100%;
+        font-family: "MicrosoftYaHei";
+    }
+    body {
+        background-color: #ececec;
+    }
+
+    img {
+        margin-top: 10px;
+    }
+
+    .tk-main {
+        -moz-box-shadow: 5px 5px 5px #eee inset;
+        /* For Firefox3.6+ */
+        -webkit-box-shadow: 5px 5px 5px #eee inset;
+        /* For Chrome5+, Safari5+ */
+        box-shadow: 5px 5px 5px #eee inset;
+        /* For Latest Opera */
+        /* padding-top: 204px; */
+    }
+
+    #wrapper {
+        display: table;
+    }
+
+    #cell {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    #floater {
+        float: left;
+        height: 50%;
+        margin-bottom: -120px;
+    }
+
+    #content {
+        clear: both;
+        height: 240px;
+        position: relative;
+    }
+
+    .el-icon-success {
+        font-size: 56px;
+        color: green;
+    }
+    .label {
+        color: #565656;
+        font-size: 16px;
+    }
+    #app input {
+        border-radius: 0px;
+        font-size: 12px;
+        color: rgba(70, 68, 68 ,0.6);
+    }
+    .tishi {
+        padding: 10px;
+    }
+    .chead {
+        cursor: pointer;
+    }
+    .icon-bukejian:hover {
+        color: #000000;
+    }
+    .primary {
+        background-color: rgb(2, 101, 172);
+        color: azure;
+    }
+    .turnright{
+        margin-left:14px;
+    }
+    .tright{
+        margin-left:2px;
+    }
+    .small{
+        width:28%;
+        margin-left:15px;
+    }
+    .hea img{
+    width:116px;
+    height:40px;
+    }
+</style>
+
+<body>
+    <div id="app">
+        <el-container>
+            <el-header class="text-center hea">
+                <img src="/public/guanwang/home/home_icon_logo.png" height="40" width="116" alt="">
+            </el-header>
+            <el-main class="tk-main">
+                <div class="container">
+                    <div class="row justify-content-md-center">
+                        <div class="col-sm-6 col-md-4">
+                            <form action="/sys/regist" method="post">
+                                <div class="form-group">
+                                    <label class="label">基本信息</label>
+                                    <el-input v-model="ruleForm.username" name="username" placeholder="请输入用户名">
+                                        <i v-if="show1" class="el-icon-edit el-input__icon" slot="suffix"></i>
+                                        <i v-else class="el-icon-check el-input__icon text-success" slot="suffix"></i>
+                                    </el-input>
+                                    <el-collapse-transition>
+                                        <div class="tishi" v-show="show1">
+                                            <div><i class="icon iconfont" :class="ichange('err1')"></i> &nbsp;用户名不能为空</div>
+                                        </div>
+                                    </el-collapse-transition>
+                                </div>
+                                <div class="form-group">
+                                    <el-input type="password" id="pass1" v-model="ruleForm.password" name="password"
+                                        placeholder="请输入密码">
+                                        <i v-on:click=" mousedown1(1)" v-on:mouseup="mouseup1(1)" class="icon iconfont icon-bukejian el-input__icon chead"
+                                            slot="suffix">
+                                        </i>
+                                    </el-input>
+                                    <el-collapse-transition>
+                                        <div class="tishi" v-show="show2">
+                                            <div><i class="icon iconfont" :class="ichange('err2')"></i> &nbsp;不能包含空格</div>
+                                            <div><i class="icon iconfont" :class="ichange('err3')"></i>
+                                                &nbsp;长度为8-16个字符</div>
+                                            <div><i class="icon iconfont" :class="ichange('err4')"></i>
+                                                &nbsp;必须包含字母和数字</div>
+                                        </div>
+                                    </el-collapse-transition>
+                                </div>
+                                <div class="form-group">
+                                    <el-input type="password" id="pass2" v-model="ruleForm.password2" placeholder="请再次输入密码">
+                                        <i v-on:click="mousedown1(2)" v-on:mouseup="mouseup1(2)" class="icon iconfont icon-bukejian el-input__icon chead"
+                                            slot="suffix">
+                                        </i>
+                                    </el-input>
+                                    <el-collapse-transition>
+                                        <div class="tishi" v-show="show3">
+                                            <div><i class="icon iconfont" :class="ichange('err5')"></i> &nbsp;两次输入不同</div>
+                                        </div>
+                                    </el-collapse-transition>
+                                </div>
+                                <div class="form-group row">
+                                    <el-select class="small" v-model="ruleForm.area">
+                                        <el-option v-for="item in options" :key="item.value" :label="item.label" :value="item.value">
+                                        </el-option>
+                                    </el-select>
+                                    <el-input class="col-8 tright" v-model="ruleForm.phonenum" name="phonenum"
+                                        placeholder="请输入手机号码">
+                                    </el-input>
+                                </div>
+                                <el-collapse-transition>
+                                    <div class="tishi" v-show="show4">
+                                        <div><i class="icon iconfont" :class="ichange('err6')"></i> &nbsp;请填写一个正确手机号码</div>
+                                    </div>
+                                </el-collapse-transition>
+                                <div class="form-group row">
+                                    <el-input class="small" v-model="ruleForm.yzm" placeholder="填写验证码"></el-input>
+                                    <button v-if="isTel" class="col-8 btn btn-block primary" @click="getyzm()" type="button">获取验证码</button>
+                                    <button v-else class="col-7 btn btn-block primary turnright" disabled type="button"
+                                        v-text="times()"></button>
+                                </div>
+                                <el-collapse-transition>
+                                    <div class="tishi" v-show="show5">
+                                        <div><i class="icon iconfont" :class="ichange()"></i> &nbsp;验证码不正确</div>
+                                    </div>
+                                </el-collapse-transition>
+                                <div class="form-group">
+                                    <el-input type="email" v-model="ruleForm.useremail" name="useremail" placeholder="邮箱"></el-input>
+                                    <el-collapse-transition class="col-12">
+                                        <div class="tishi" v-show="show6">
+                                            <div><i class="icon iconfont" :class="ichange()"></i> &nbsp;验证码不正确</div>
+                                        </div>
+                                    </el-collapse-transition>
+                                </div>
+                                <input type="hidden" disabled class="form-control" name="packegeid" v-model="ruleForm.packegeid"
+                                    placeholder="邀请码">
+                                <input type="hidden" disabled class="form-control" name="agent" v-model="ruleForm.agent"
+                                    placeholder="邀请人">
+                                <div class="form-group  text-center">
+                                    <button type="button" @click="submitForm()" class="btn primary btn-block"> &nbsp;
+                                        &nbsp;
+                                        &nbsp;
+                                        &nbsp; 提交 &nbsp; &nbsp; &nbsp; &nbsp; </button>
+
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </el-main>
+        </el-container>
+        <el-dialog :visible.sync="dialogVisible" width="90%" style="margin-top:90px;">
+            <div class="text-center">
+                <i class="el-icon-success"></i>
+                <br>
+                <br>
+                <h5>您的信息已经发送后台审核</h5>
+                <br>
+                <h6>{{guanbi}}秒后自动返回首页</h6>
+                <a href="/">立即跳转</a>
+            </div>
+        </el-dialog>
+    </div>
+</body>
+<script>
+    function csrfSafeMethod(method) {
+        // these HTTP methods do not require CSRF protection
+        return (/^(GET|HEAD|OPTIONS|TRACE)$/.test(method));
+    }
+
+    // 添加csrf 验证
+    $.ajaxSetup({
+        beforeSend: function (xhr, settings) {
+            if (!csrfSafeMethod(settings.type) && !this.crossDomain) {
+                let arr = document.cookie.split(';')
+                for (let v in arr) {
+                    let to = arr[v].split('=');
+                    if (to[0].replace(/\s+/g, "") === "csrfToken") {
+                        xhr.setRequestHeader('x-csrf-token', to[1].replace(/\s+/g, ""));
+                    }
+                }
+            }
+        },
+    });
+    var vm = new Vue({
+        el: "#app",
+        data: {
+            dialogVisible: false,
+            top: "200vh",
+            ruleForm: {
+                username: '',
+                password: '',
+                phonenum: '',
+                useremail: '',
+                packegeid: "",
+                password2: "",
+                agent: "",
+                area: "0086",
+                yzm: ""
+            },
+            show1: true,
+            show2: true,
+            show3: true,
+            show4: true,
+            show5: false,
+            show6: false,
+            options: [{
+                value: '0086',
+                label: '中国0086'
+            }, {
+                value: '+886',
+                label: '中国台湾00886'
+            }],
+            value: '',
+            yzm: "",
+            iserr: {
+                err1: false,
+                err2: false,
+                err3: false,
+                err4: false,
+                err5: false,
+                err6: false
+            },
+            time: 60,
+            timer: Object,
+            isTel: false,
+            guanbi: 10
+        },
+        mounted: function () {
+            var data = GetRequest()
+            this.ruleForm.packegeid = data.packegeid ? data.packegeid : data.packege_ID
+            this.ruleForm.agent = data.agent
+        },
+        watch: {
+            guanbi: function (v) {
+                if (v === 0) {
+                    window.location.href = "https://" + window.location.host
+                }
+            },
+            "ruleForm.username": function (v) {
+                this.jiance(1)
+            },
+            "ruleForm.password": function () {
+                this.jiance(2)
+                this.jiance(3)
+            },
+            "ruleForm.password2": function () {
+                this.jiance(3)
+            },
+            "ruleForm.phonenum": function () {
+                this.jiance(4)
+            },
+            "iserr.err1": function (v) {
+                this.show1 = !v
+            },
+            "iserr.err2": function (v) {
+                this.show2 = !(v && this.iserr.err3 && this.iserr.err4)
+            },
+            "iserr.err3": function (v) {
+                this.show2 = !(v && this.iserr.err2 && this.iserr.err4)
+            },
+            "iserr.err4": function (v) {
+                this.show2 = !(v && this.iserr.err3 && this.iserr.err2)
+            },
+            "iserr.err5": function (v) {
+                this.show3 = !this.iserr.err5
+            },
+            "iserr.err6": function (v) {
+                this.show4 = !this.iserr.err6
+                this.isTel = v
+            },
+            time: function (v) {
+                if (v == 60) {
+                    this.isTel = true;
+                } else {
+                    this.isTel = false;
+                }
+            }
+        },
+        methods: {
+            ichange: function (i) {
+                if (this.iserr[i]) {
+                    return "icon-zhengque text-success"
+                } else {
+                    return "icon-cuowu text-danger"
+                }
+            },
+            getyzm() {
+                this.jiance(4)
+                if (this.iserr.err6) {
+                    $.post("/sys/regist_getCode", {
+                        phonenumber: this.ruleForm.phonenum
+                    }).then(function (res) {
+                        if (res.error == 0) {
+                            var a = vm.hc;
+                            vm.timer = setInterval(a, 1000);
+                            vm.isUser = true;
+                        } else {
+                            alert("手机号码有误")
+                        }
+
+                    }).catch(function (err) {
+                        alert("服务器超时")
+                    })
+                }
+            },
+            hc: function () {
+                var a = this.time;
+                this.time--;
+                if (a == 0) {
+                    clearInterval(this.timer);
+                    this.time = 60;
+                }
+            },
+            jiance: function (i) {
+                if (i === 1) {
+                    this.iserr.err1 = jiankong(this.ruleForm.username)
+                }
+
+                if (i === 2) {
+                    this.iserr.err2 = jiankongge(this.ruleForm.password)
+
+                    if (this.ruleForm.password.length >= 8 && this.ruleForm.password.length <= 16) {
+                        this.iserr.err3 = true
+                    } else {
+                        this.iserr.err3 = false
+                    }
+                    this.iserr.err4 = jianliangzhong(this.ruleForm.password)
+
+                }
+
+                if (i === 3) {
+                    if (this.ruleForm.password == this.ruleForm.password2) {
+                        this.iserr.err5 = true
+                    } else {
+                        this.iserr.err5 = false
+                    }
+                }
+                if (i === 4) {
+                    this.iserr.err6 = jianphone(this.ruleForm.phonenum)
+                }
+
+                function jiankong(data) {
+                    if (data === "") {
+                        return false
+                    } else {
+                        return true
+                    }
+                }
+
+                function jianxt(pass1, pass2) {
+                    if (pass1 === pass2) {
+                        return true
+                    } else {
+                        return false
+                    }
+                }
+
+                function jiankongge(data) {
+                    var reg = new RegExp(/^\s*(\S+)\s*$/)
+                    if (reg.test(data)) {
+                        return true
+                    } else {
+                        return false
+                    }
+                }
+
+                function jianliangzhong(data) {
+
+                    var reg = new RegExp(/^(?![^a-zA-Z]+$)(?!\D+$)/);
+                    if (reg.test(data)) {
+                        return true;
+                    } else {
+                        return false
+                    }
+                }
+
+                function jianphone(data) {
+                    var reg = new RegExp(/^1[34578]\d{9}$/);
+                    if (reg.test(data)) {
+                        return true;
+                    } else {
+                        return false
+                    }
+                }
+            },
+            submitForm: function () {
+                var index = 0
+                for (var err in this.iserr) {
+                    if (this.iserr[err] == false) {
+                        alert("信息不完整")
+                        return false
+                    }
+                }
+                $.post("/sys/regist", this.ruleForm).then(function (res) {
+                    if (res.error === 0) {
+                        vm.dialogVisible = true
+                        setInterval(vm.gujianjian, 1000)
+                    } else {
+                        alert(res.msg)
+                    }
+                }).catch(function (err) {
+                    console.log(err)
+                })
+            },
+            gujianjian: function () {
+                this.guanbi--
+            },
+            resetForm: function (formName) {
+                this.$refs[formName].resetFields();
+            },
+            handleClose: function (done) {
+                this.$confirm('确认关闭？')
+                    .then(function (_) {
+                        done();
+                    })
+                    .catch(function (_) {});
+            },
+            mousedown1: function (i) {
+                if (i === 1) {
+                    $('#pass1').prop('type', 'text');
+                }
+                if (i === 2) {
+                    $('#pass2').prop('type', 'text');
+                }
+            },
+            mouseup1: function (i) {
+                if (i === 1) {
+                    $('#pass1').prop('type', 'password');
+                }
+                if (i === 2) {
+                    $('#pass2').prop('type', 'password');
+                }
+            },
+            times: function () {
+                if (this.time == 60) {
+                    return "请输入验证码";
+                } else {
+                    return `${this.time} s`;
+                }
+            },
+            des: function (time) {
+                return new Promise(function (res) {
+                    setTimeout(res(true), time)
+                })
+            },
+        }
+    })
+
+    document.addEventListener("mouseup", function () {
+        $('#pass1').prop('type', 'password');
+        $('#pass2').prop('type', 'password');
+    }, false)
+
+    function GetRequest() {
+        var url = location.search; //获取url中"?"符后的字串   
+        var theRequest = new Object();
+        if (url.indexOf("?") != -1) {
+            var str = url.substr(1);
+            strs = str.split("&");
+            for (var i = 0; i < strs.length; i++) {
+                theRequest[strs[i].split("=")[0]] = unescape(strs[i].split("=")[1]);
+            }
+        }
+        return theRequest;
+    }
+</script>
+
+</html>
